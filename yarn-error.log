@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/nileshpatel/.nvm/versions/node/v12.14.0/bin/node /Users/nileshpatel/.nvm/versions/node/v12.14.0/bin/yarn add babel-cli babel-core babel-preset-es2015 _D
+
+PATH: 
+  /Users/nileshpatel/.nvm/versions/node/v12.14.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/nileshpatel/Library/Android/sdk/emulator:/Users/nileshpatel/Library/Android/sdk/tools:/Users/nileshpatel/Library/Android/sdk/tools/bin:/Users/nileshpatel/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/_D: Not found
+      at Request.params.callback [as _callback] (/Users/nileshpatel/.nvm/versions/node/v12.14.0/lib/node_modules/yarn/lib/cli.js:66947:18)
+      at Request.self.callback (/Users/nileshpatel/.nvm/versions/node/v12.14.0/lib/node_modules/yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/Users/nileshpatel/.nvm/versions/node/v12.14.0/lib/node_modules/yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/Users/nileshpatel/.nvm/versions/node/v12.14.0/lib/node_modules/yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1184:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "babel-playground",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
